@@ -1,0 +1,53 @@
+* Crear un repositorio nuevo local
+    git init
+
+* Clonar un repositorio existente
+    git clone {ssh o url del repositorio}
+
+* Configurar usuario y email
+    git config user.name mi_usuario
+    git config user.email mi_email@mail.com
+
+* Saber el estado de los archivos
+    git status
+
+* Agregar archivos al área de seguimiento
+    git add archivo.txt
+    
+    Si quiero agregar todos los archivos de una vez
+    git add .
+
+* Realizar un commit
+    git commit -m "mensaje del commit"
+
+* Ver el historial de commits realizados
+    git log
+    git log --oneline
+
+* Cnectarse agregar un repositorio remoto
+    git remote add origin https://repositorio.git
+
+* Ver los repositorios remotos configurados
+    git remote -v
+
+* Enviar los cambios del repositorio local al repositorio remoto
+    git push origin rama
+
+* Obtener los cambios más recientes del repositorio remoto y actualizar el local
+    git pull origin rama
+
+* Obtener los cambios más recientes, pero no actualizar el repositorio local
+    git feth origin rama
+
+* Crear una nueva rama
+    git branch nueva_rama
+
+* Moverse a otra rama
+    git checkout nueva_rama
+
+* Bajar y subir cambios de la nueva rama
+    git pull origin nueva_rama
+    git push origin nueva_rama
+
+* Fusionar los cambios de una rama con la actual
+    git merge rama_a_unir
