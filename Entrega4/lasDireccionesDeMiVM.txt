@@ -1,0 +1,7 @@
+- IP privada: 10.0.2.15
+- IP pública: 181.51.32.208
+- MAC: 08:00:27:33:4c:69
+
+¿Es diferente la IP pública y privada de mi máquina host?
+La IP privada de mi host es diferente (192.168.0.2), pero la IP pública es la misma.
+
